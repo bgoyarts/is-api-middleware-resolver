@@ -1,7 +1,7 @@
 {
-  "vendor": "vtex",
-  "name": "is-api-middleware-resolver",
-  "version": "0.1.0-beta.1",
+  "vendor": "keunehaircosmetics",
+  "name": "is-keune-api-middleware-resolver",
+  "version": "0.1.0-beta.2",
   "title": "Intelligent Search API middleware resolver",
   "description": "Implementation of the GraphQL schema for the intelligent search middleware.",
   "builders": {
@@ -9,7 +9,7 @@
     "node": "6.x"
   },
   "dependencies": {
-    "vtex.is-api-middleware-graphql": "0.x"
+    "vtex.is-api-middleware-graphql": "0.1.0-beta.3"
   },
   "policies": [],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"

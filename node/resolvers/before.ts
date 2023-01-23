@@ -5,12 +5,15 @@ export default async function before(
 ): Promise<SearchParams> {
   // This is just an example. Change the implementation of this function however you like :)
 
+  console.log(`before`)
+  console.log({ args })
+
   if (args.query === 'shoes') {
     const myDynamicRules: DynamicRule[] = [
       {
         action: 'promote',
         type: 'id',
-        value: '123',
+        value: '1',
       },
     ]
 
